@@ -1,6 +1,6 @@
 # 🎨 Scratch Custom Operator Block - Square and Square Root
 
-Elevate your Scratch experience by introducing new operator blocks for 'Square' and 'Square Root' to perform advanced mathematical operations! 🚀
+Elevate your Scratch experience by introducing new operator blocks for **'Square'** and **'Square Root'** to perform advanced mathematical operations! 🚀
 
 ---
 
@@ -29,21 +29,15 @@ npm link ../scratch-blocks
 
 ### 4. **Create New Operator Blocks**
 
-#### In `scratch-blocks/blocks_vertical/operators.js`:
-
-Add the logic for the 'Square' and 'Square Root' blocks.
+In **`scratch-blocks/blocks_vertical/operators.js`**, add the logic for the **'Square'** and **'Square Root'** blocks.
 
 ### 5. **Implement Logic in scratch-vm**
 
-#### Inside `scratch-vm/src/blocks/scratch3_operators.js`:
-
-Create the logic for the 'Square' block.
+Inside **`scratch-vm/src/blocks/scratch3_operators.js`**, create the logic for the **'Square'** block and **'Square Root'** block.
 
 ### 6. **Update Toolbox in scratch-gui**
 
-#### Inside `scratch-gui/src/lib/make-toolbox-xml.js`
-
-Include blocks for 'Square' and 'Square Root'.
+Inside **`scratch-gui/src/lib/make-toolbox-xml.js`**, include blocks for **'Square'** and **'Square Root'**.
 
 ### 7. **Build scratch-blocks**
 
@@ -71,7 +65,7 @@ cd ../scratch-gui
 npm start
 ```
 
-Now, the Scratch GUI should reflect the changes with the new 'Square' and 'Square Root' operator blocks.
+Now, the Scratch GUI should reflect the changes with the new **'Square'** and **'Square Root'** operator blocks.
 
 ---
 
