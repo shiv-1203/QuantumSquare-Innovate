@@ -41,14 +41,9 @@ Create the logic for the 'Square' block.
 
 ### 6. **Update Toolbox in scratch-gui**
 
-Inside `scratch-gui/src/lib/make-toolbox-xml.js`, include blocks for 'Square' and 'Square Root'.
+#### Inside `scratch-gui/src/lib/make-toolbox-xml.js`
 
-```javascript
-// Add the following inside the appropriate section of the file
-// Example:
-'<block type="math_square"></block>',
-// Add a similar line for Square Root
-```
+Include blocks for 'Square' and 'Square Root'.
 
 ### 7. **Build scratch-blocks**
 
@@ -89,5 +84,5 @@ project-root/
 |-- scratch-blocks/
 ```
 
-Adjust the details and paths according to your actual file structure and implementation.
+
 
