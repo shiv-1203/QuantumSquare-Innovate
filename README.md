@@ -51,7 +51,7 @@ Build `scratch-blocks` again to incorporate the new changes:
 
 ```bash
 cd ../scratch-blocks
-npm run build
+npm install
 ```
 
 ### 8. **Link scratch-vm to scratch-gui**
@@ -84,5 +84,5 @@ project-root/
 |-- scratch-blocks/
 ```
 
-
+Feel free to explore the project and reach out if you have any questions or feedback. Happy exploring! 🎉
 
