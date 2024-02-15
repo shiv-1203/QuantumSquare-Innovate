@@ -59,6 +59,4 @@ If you have any questions, suggestions, or feedback, feel free to reach out. I'd
 ## 🚀 Happy Coding!
 
 Thank you for checking out my project. I hope you enjoy exploring the custom blocks and extensions! Keep creating amazing projects with Scratch and unleash your creativity. Happy coding! 🌈✨
-```
 
-This README now accurately categorizes the features into Custom Operator Blocks, Extensions (PictoBloxString, Automatic Modal Handling, Communication with Server), maintaining the same engaging and informative tone. Feel free to customize it further to match your project's specifics! 🎉🚀
