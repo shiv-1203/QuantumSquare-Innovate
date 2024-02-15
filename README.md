@@ -21,7 +21,7 @@ Welcome to my GitHub project! This repository contains a collection of custom op
 Clone this repository to your local machine to get started:
 
 ```bash
-git clone https://github.com/your-username/your-project.git
+git clone https://github.com/shiv-1203/QuantumSquare-Innovate.git
 ```
 
 ### Installation and Setup
