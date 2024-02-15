@@ -1,4 +1,3 @@
-```markdown
 # 🌟 Welcome to My Awesome Scratch Custom Blocks and Extensions Project! 🚀
 
 ## 🎨 Introduction
