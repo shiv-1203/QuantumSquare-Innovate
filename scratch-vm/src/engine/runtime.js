@@ -1,5 +1,5 @@
 const EventEmitter = require('events');
-const {OrderedMap} = require('immutable');
+const {OrderedMap, List} = require('immutable');
 const uuid = require('uuid');
 
 const ArgumentType = require('../extension-support/argument-type');
@@ -185,6 +185,12 @@ class Runtime extends EventEmitter {
          * @type {Array.<!Target>}
          */
         this.targets = [];
+
+        /**
+         * List management and storage.
+         * @type {Array.<List>}
+         */
+        this.list = [];
 
         /**
          * Targets in reverse order of execution. Shares its order with drawables.

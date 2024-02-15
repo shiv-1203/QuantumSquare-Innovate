@@ -2,6 +2,9 @@ import {applyMiddleware, compose, combineReducers} from 'redux';
 import alertsReducer, {alertsInitialState} from './alerts';
 import assetDragReducer, {assetDragInitialState} from './asset-drag';
 import cardsReducer, {cardsInitialState} from './cards';
+
+import autoOpenCloseReducer, { autoOpenCloseInitialState } from './auto-open-close';
+
 import colorPickerReducer, {colorPickerInitialState} from './color-picker';
 import connectionModalReducer, {connectionModalInitialState} from './connection-modal';
 import customProceduresReducer, {customProceduresInitialState} from './custom-procedures';
@@ -39,6 +42,9 @@ const guiInitialState = {
     assetDrag: assetDragInitialState,
     blockDrag: blockDragInitialState,
     cards: cardsInitialState,
+
+    autoOpenClose: autoOpenCloseInitialState,
+
     colorPicker: colorPickerInitialState,
     connectionModal: connectionModalInitialState,
     customProcedures: customProceduresInitialState,
@@ -123,6 +129,18 @@ const initTutorialCard = function (currentState, deckId) {
     );
 };
 
+const initAutoOpenClose = function (currentState){
+    return Object.assign(
+        {},
+        currentState,
+        {
+            autoOpenClose:{
+                visible: false
+            }
+        }      
+    );
+};
+
 const initTelemetryModal = function (currentState) {
     return Object.assign(
         {},
@@ -140,6 +158,7 @@ const guiReducer = combineReducers({
     assetDrag: assetDragReducer,
     blockDrag: blockDragReducer,
     cards: cardsReducer,
+    autoOpenClose: autoOpenCloseReducer,
     colorPicker: colorPickerReducer,
     connectionModal: connectionModalReducer,
     customProcedures: customProceduresReducer,
@@ -175,5 +194,6 @@ export {
     initFullScreen,
     initPlayer,
     initTelemetryModal,
-    initTutorialCard
+    initTutorialCard,
+    initAutoOpenClose
 };

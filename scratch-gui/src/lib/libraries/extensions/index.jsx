@@ -7,6 +7,12 @@ import musicInsetIconURL from './music/music-small.svg';
 import penIconURL from './pen/pen.png';
 import penInsetIconURL from './pen/pen-small.svg';
 
+import pictoBloxStringIconURL from './pictoBloxString/pictoBloxString.png';
+import pictoBloxStringInsetIconURL from './pictoBloxString/pictoBloxString.svg';
+
+import dupCheckStringIconURL from './dupCheckString/dupCheckStringBg.png';
+import dupCheckStringInsetIconURL from './dupCheckString/dupCheckStringBg.svg';
+
 import videoSensingIconURL from './videoSensing/video-sensing.png';
 import videoSensingInsetIconURL from './videoSensing/video-sensing-small.svg';
 
@@ -317,5 +323,46 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Picto Blox String"
+                description="Name for the 'Picto Blox String' extension"
+                id="gui.extension.pictoBloxString.name"
+            />
+        ),
+        extensionId: 'pictoBloxString',
+        iconURL: pictoBloxStringIconURL,
+        insetIconURL: pictoBloxStringInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Find equality of strings and index"
+                description="Description for the 'Picto Blox String' extension"
+                id="gui.extension.pictoBloxString.description"
+            />
+        ),
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Duplicate String Check"
+                description="Name for the 'Duplicate Check String' extension"
+                id="gui.extension.dupCheckString.name"
+            />
+        ),
+        extensionId: 'dupCheckString',
+        iconURL: dupCheckStringIconURL,
+        insetIconURL: dupCheckStringInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Returns True if the string you input is already present otherwise False"
+                description="Description for the 'Duplicate Check String' extension"
+                id="gui.extension.dupCheckString.description"
+            />
+        ),
+        featured: true,
+        internetConnectionRequired: true
     }
 ];
